@@ -1,0 +1,38 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.1.100:8761/eureka/
+    healthCheck:
+      enable: true #开启健康检查
+  instance:
+    lease-renewal-interval-in-seconds: 30  #续约更新时间间隔（默认30秒）
+    lease-expiration-duration-in-seconds: 90  #续约到期时间（默认90秒）
+#    preferIpAddress: true                  #默认使用host注册，true改为使用ip注册
+#    instanceId: ${spring.cloud.client.ipAddress}:${server.port}
+
+endpoints:
+  restart:
+    enabled: true
+  shutdown:
+    enabled: true
+management:
+  security:
+    enabled: true
+    roles: ADMIN
+security:
+  user:
+    name: mamahao
+    password: mamahao123
+    role: ADMIN
+  basic:
+    enabled: false
+
+
+mamahao:
+  swagger:
+    showSwagger: true
+  data:
+    dataSource:
+      defaultDataSourceType: com.alibaba.druid.pool.DruidDataSource
+      defaultDriverClassName: com.mysql.jdbc.Driver
+      autoSwitchDataSource: true
