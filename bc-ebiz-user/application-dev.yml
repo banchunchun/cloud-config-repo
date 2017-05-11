@@ -15,3 +15,7 @@ mamahao:
           url: jdbc:mysql://172.28.1.6:3306/demo_person?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&rewriteBatchedStatements=true
           username: root
           password: mamahao
+    mongodb:
+      default-database: mamahao_user
+    redis:
+      database: 2
