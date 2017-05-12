@@ -1,0 +1,22 @@
+pay:
+  alipay:
+    partner: mmhtest@mamahao.com  #你的支付宝帐号
+    seller: mmhtest@mamahao.com  #你的支付宝帐号
+    privatekey:  #你的私钥
+    key:  #你的支付宝key
+
+  weixin:
+    app:
+      appid:  #微信开放平台appid
+      appsecret:  #微信开放平台密钥
+      partner:  #商户号
+      key:  #密钥
+      cert:  #证书路径 用于退款，查询订单，支付时用不到
+    mp:
+      appid:  #微信公众号的appid
+      appsecret:  #微信公众号的secret
+      partner:  #商户号
+      host:   #支付绑定的域名
+      token:  # 微信token的可用于和微信公众号进行交互
+      key:  #支付私钥
+      cert:  #证书路径

@@ -20,8 +20,4 @@ hystrix:
 
 
 
-pay:
-  alipay:
-    partner: banchun
-
 
