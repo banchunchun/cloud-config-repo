@@ -19,3 +19,18 @@ mamahao:
       default-database: mamahao_user
     redis:
       database: 2
+
+pay:
+  alipay:
+    partner: test
+
+
+
+  weixin:
+
+
+
+  unionpay:
+
+
+
