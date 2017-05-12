@@ -20,17 +20,7 @@ mamahao:
     redis:
       database: 2
 
-pay:
-  alipay:
-    partner: test
 
-
-
-  weixin:
-
-
-
-  unionpay:
 
 
 
