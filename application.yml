@@ -19,14 +19,3 @@ hystrix:
       maxQueueSize: -1 #最大排队长度。默认-1，使用SynchronousQueue。其他值则使用 LinkedBlockingQueue。如果要从-1换成其他值则需重启，即该值不能动态调整，若要动态调整，需要使用到下边这个配置
 
 
-pay:
-  alipay:
-    partner: test
-
-
-
-  weixin:
-
-
-
-  unionpay:
