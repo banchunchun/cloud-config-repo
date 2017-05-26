@@ -1,7 +1,27 @@
 server:
   port: 8881
 
-mamahao:
+#mamahao:
+#  data:
+#    dataSource:
+#      dataSourceItems:
+#        - master: true
+#          name: master
+#          url: jdbc:mysql://172.28.1.6:3306/db_demo?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&rewriteBatchedStatements=true
+#          username: root
+#          password: mamahao
+#        - master: false
+#          name: slave
+#          url: jdbc:mysql://172.28.1.6:3306/db_demo?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&rewriteBatchedStatements=true
+#          username: root
+#          password: mamahao
+#    mongodb:
+#      default-database: mamahao_user
+#    redis:
+#      database: 2
+
+
+bc:
   data:
     dataSource:
       dataSourceItems:

@@ -68,3 +68,14 @@ mamahao:
       openInView: true
       hibernateDdlAuto: update
       hibernateDialect: org.hibernate.dialect.MySQL5Dialect
+
+
+message:
+    email:
+      host: smtp.mxhichina.com
+      port: 25
+      username: tech@mamahao.com
+      password: ya0shur00Q
+      protocol: smtp
+      testConnection: false
+      auth: true
